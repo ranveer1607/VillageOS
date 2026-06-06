@@ -15,7 +15,8 @@
         android:textColor="#ffffff"
         android:backgroundTint="#3ED569"
         android:layout_marginTop="510dp"
-        android:layout_marginLeft="100dp">
+        android:layout_marginLeft="100dp"
+        android:id="@+id/btn"
 
     </Button>
 
