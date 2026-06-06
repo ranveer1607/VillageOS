@@ -37,6 +37,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/editbg"
         android:hint=" Enter Username or Email"
+        android:id="@+id/e1"
         android:textSize="20dp">
 
     </EditText>
@@ -60,6 +61,8 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/editbg"
         android:hint="  Enter Password"
+        android:password="true"
+        android:id="@+id/e2"
         android:textSize="20dp">
 
     </EditText>
@@ -73,6 +76,7 @@
         android:textColor="#ffffff"
         android:backgroundTint="#3ED569"
         android:layout_marginTop="51dp"
+        android:id="@+id/b1"
         android:layout_marginLeft="100dp">
 
     </Button>
