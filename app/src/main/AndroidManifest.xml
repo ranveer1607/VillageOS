@@ -13,16 +13,16 @@
         android:theme="@style/Theme.VillageOS"
         tools:targetApi="31">
         <activity
-            android:name=".Mainpage"
+            android:name=".signinpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".loginpage"
             android:exported="false" />
         <activity
-            android:name=".mainpage"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".Mainpage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

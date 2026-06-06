@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Sign in"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textColor="#ffffff"
+        android:textSize="28dp"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editbg"
+        android:hint=" Enter Name"
+        android:textSize="20dp">
+
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:textSize="28dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editbg"
+        android:hint="  Enter Mobile Number"
+        android:textSize="20dp">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="28dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editbg"
+        android:hint="  Enter Email"
+        android:textSize="20dp">
+
+    </EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="28dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editbg"
+        android:hint="  Enter Password"
+        android:textSize="20dp">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conform Password"
+        android:textSize="28dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editbg"
+        android:hint="  Enter Conform Password"
+        android:textSize="20dp">
+
+    </EditText>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:id="@+id/btn"
+        android:textColor="#ffffff"
+        android:backgroundTint="#3ED569"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp">
+
+    </Button>
+
+</LinearLayout>
