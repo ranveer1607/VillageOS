@@ -1,67 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        app:menu="@menu/buttom_menu" />
+<TableLayout
 
-    <Button
-        android:id="@+id/b4"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="40dp"
-        android:layout_toRightOf="@id/b3"
-        android:layout_below="@id/b2"
-        android:text="Scolarship" />
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:stretchColumns="3">
 
-    <Button
-        android:id="@+id/b2"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="300dp"
-        android:layout_toRightOf="@+id/b1"
-        android:text="Scolarship" />
+    <TableRow >
 
-    <Button
-        android:id="@+id/b3"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="40dp"
-        android:layout_below="@id/b1"
-        android:text="Scolarship" />
+        <ImageView
+            android:layout_width="126dp"
+            android:layout_height="164dp"
+            android:src="@drawable/icon">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="250dp"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/v1"
-        android:textAlignment="center"
-        android:textColor="#2e8b57"
-        android:textSize="50dp"
-        android:textStyle="bold">
+        </ImageView>
 
-    </TextView>
+        <TextView
+            android:layout_width="151dp"
+            android:layout_height="164dp"
+            android:text="Welcome To Village OS"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold">
 
-    <Button
-        android:id="@+id/b1"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="30dp"
-        android:text="Scolarship" />
+        </TextView>
+
+        <com.airbnb.lottie.LottieAnimationView
+
+            android:layout_width="51dp"
+            android:layout_height="match_parent"
+            android:layout_span="2"
+            app:lottie_autoPlay="true"
+            app:lottie_cacheComposition="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/welcome"
+            app:lottie_speed="1"
+            tools:ignore="MissingClass">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+    </TableRow>
 
 
+    <HorizontalScrollView
 
-</RelativeLayout>
+        android:layout_width="223dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/icon">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bg">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img1">
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+</HorizontalScrollView>
+
+</TableLayout>
+
+</ScrollView>
