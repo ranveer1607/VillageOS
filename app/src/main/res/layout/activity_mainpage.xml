@@ -1,23 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img1"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F7FA">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="360dp"
+        android:layout_height="380dp"
+        android:src="@drawable/v1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connecting Citizens with Village Services"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:layout_marginTop="10dp" />
 
     <Button
-        android:id="@+id/btn"
-        android:layout_width="187dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="105dp"
-        android:layout_marginTop="550dp"
-        android:backgroundTint="#3ED569"
-        android:text="Log In"
-        android:textColor="#ffffff"
-        android:textSize="20dp"
-        android:textStyle="italic">
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50" />
 
-
-    </Button>
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:text="SIGN UP"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2E7D32" />
 
 </LinearLayout>

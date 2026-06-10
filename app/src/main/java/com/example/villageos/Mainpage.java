@@ -18,9 +18,9 @@ public class Mainpage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainpage);
 
-        Button btn=findViewById(R.id.btn);
+        Button b1=findViewById(R.id.b1);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -28,5 +28,14 @@ public class Mainpage extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        Button b2=findViewById(R.id.b2);
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a=new Intent(Mainpage.this, signinpage.class);
+                startActivity(a);
+            }
+        });
+
     }
 }

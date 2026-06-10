@@ -51,7 +51,6 @@
         android:textColor="#2e8b57"
         android:textSize="50dp"
         android:textStyle="bold">
-
     </TextView>
 
     <Button
