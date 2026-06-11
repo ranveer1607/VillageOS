@@ -13,7 +13,7 @@
         android:theme="@style/Theme.VillageOS"
         tools:targetApi="31">
         <activity
-            android:name=".Homepage"
+            android:name=".Mainpage"
             android:exported="false" />
         <activity
             android:name=".signinpage"
@@ -25,7 +25,7 @@
             android:name=".loginpage"
             android:exported="false" />
         <activity
-            android:name=".Mainpage"
+            android:name=".Homepage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
