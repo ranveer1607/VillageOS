@@ -1,155 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/img"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:background="#F5F7FA">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="30dp"
-        android:text="Sign in"
-        android:textColor="#ffffff"
-        android:textSize="50dp"
-        android:textStyle="bold">
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
 
-    </TextView>
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/v1"
+            android:layout_marginTop="20dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="20dp"
-        android:text="Name"
-        android:textColor="#ffffff"
-        android:textSize="28dp"
-        android:textStyle="italic">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Village Connect"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="10dp"/>
 
-    </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Your Account"
+            android:textSize="16sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="20dp"/>
 
-    <EditText
-        android:layout_width="250dp"
-        android:layout_height="35dp"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="10dp"
-        android:id="@+id/n1"
-        android:background="@drawable/editbg"
-        android:hint=" Enter Name"
-        android:textSize="20dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
 
-    </EditText>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mobile Number"
-        android:textSize="28dp"
-        android:textStyle="italic"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="10dp"
-        android:textColor="#ffffff">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
 
-    </TextView>
+                <EditText
+                    android:id="@+id/e1"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="Full Name"/>
 
-    <EditText
-        android:layout_width="250dp"
-        android:layout_height="35dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/editbg"
-        android:hint="  Enter Mobile Number"
-        android:id="@+id/m1"
-        android:textSize="20dp">
+                <EditText
+                    android:id="@+id/e2"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="12dp"
+                    android:hint="Mobile Number"
+                    android:inputType="phone"/>
 
-    </EditText>
+                <EditText
+                    android:id="@+id/e3"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="12dp"
+                    android:hint="Email Address"
+                    android:inputType="textEmailAddress"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email"
-        android:textSize="28dp"
-        android:textStyle="italic"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="10dp"
-        android:textColor="#ffffff">
+                <EditText
+                    android:id="@+id/e4"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="12dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"/>
 
-    </TextView>
+                <EditText
+                    android:id="@+id/e5"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="12dp"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"/>
 
-    <EditText
-        android:layout_width="250dp"
-        android:layout_height="35dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/editbg"
-        android:hint="  Enter Email"
-        android:id="@+id/e1"
-        android:textSize="20dp">
+                <Button
+                    android:id="@+id/btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="20dp"
+                    android:text="CREATE ACCOUNT"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:backgroundTint="#4CAF50"/>
 
-    </EditText>
+            </LinearLayout>
 
+        </androidx.cardview.widget.CardView>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        android:textSize="28dp"
-        android:textStyle="italic"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="10dp"
-        android:textColor="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Login"
+            android:textColor="#1976D2"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
 
-    </TextView>
+    </LinearLayout>
 
-    <EditText
-        android:layout_width="250dp"
-        android:layout_height="35dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/editbg"
-        android:hint="  Enter Password"
-        android:id="@+id/p1"
-        android:textSize="20dp">
-
-    </EditText>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Conform Password"
-        android:textSize="28dp"
-        android:textStyle="italic"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="10dp"
-        android:textColor="#ffffff">
-
-    </TextView>
-
-    <EditText
-        android:layout_width="250dp"
-        android:layout_height="35dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/editbg"
-        android:hint="  Enter Conform Password"
-        android:id="@+id/c1"
-        android:textSize="20dp">
-
-    </EditText>
-
-    <Button
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:text="Sign In"
-        android:textStyle="italic"
-        android:textSize="20dp"
-        android:id="@+id/btn"
-        android:textColor="#ffffff"
-        android:backgroundTint="#3ED569"
-        android:layout_marginTop="40dp"
-        android:layout_marginLeft="100dp">
-
-    </Button>
-
-</LinearLayout>
+</ScrollView>
