@@ -22,7 +22,7 @@ public class loginpage extends AppCompatActivity {
         setContentView(R.layout.activity_loginpage);
         EditText e1=findViewById(R.id.e1);
         EditText e2=findViewById(R.id.e2);
-        TextView no1=findViewById(R.id.no1);
+
         Button b1=findViewById(R.id.b1);
 
         b1.setOnClickListener(new View.OnClickListener() {
@@ -43,7 +43,7 @@ public class loginpage extends AppCompatActivity {
             }
         });
 
-        no1.setOnClickListener(new View.OnClickListener() {
+        b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 

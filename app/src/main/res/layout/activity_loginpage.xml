@@ -75,7 +75,7 @@
                     android:textColor="#2196F3" />
 
                 <Button
-                    android:id="@+id/btn"
+                    android:id="@+id/b1"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:text="LOGIN"
