@@ -3,6 +3,7 @@ package com.example.villageos;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,8 +23,9 @@ public class loginpage extends AppCompatActivity {
         EditText e1=findViewById(R.id.e1);
         EditText e2=findViewById(R.id.e2);
         TextView no1=findViewById(R.id.no1);
+        Button b1=findViewById(R.id.b1);
 
-        no1.setOnClickListener(new View.OnClickListener() {
+        b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String a=e1.getText().toString();
@@ -37,6 +39,13 @@ public class loginpage extends AppCompatActivity {
                     Toast.makeText(loginpage.this, "Enter Correct Username and Password", Toast.LENGTH_LONG).show();
 
                 }
+
+            }
+        });
+
+        no1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
                 Intent i=new Intent(loginpage.this, signinpage.class);
                 startActivity(i);
