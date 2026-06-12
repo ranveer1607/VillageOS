@@ -1,9 +1,12 @@
 package com.example.villageos;
 
+import android.app.Notification;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,18 +27,22 @@ public class Mainpage extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i=new Intent(Mainpage.this, loginpage.class);
-                startActivity(i);
+                Intent ia=new Intent(Mainpage.this, loginpage.class);
+                startActivity(ia);
+
             }
         });
+
         Button b2=findViewById(R.id.b2);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a=new Intent(Mainpage.this, signinpage.class);
-                startActivity(a);
+
+                Intent a1=new Intent(Mainpage.this, signinpage.class);
+                startActivity(a1);
             }
         });
+
 
     }
 }
