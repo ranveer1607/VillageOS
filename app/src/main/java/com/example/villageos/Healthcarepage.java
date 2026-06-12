@@ -13,7 +13,7 @@ public class Healthcarepage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_healthcarepage);
+        setContentView(R.layout.activity_healthcare);
 
 
     }

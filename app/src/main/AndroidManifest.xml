@@ -25,10 +25,7 @@
             android:name=".jobemp"
             android:exported="false" />
         <activity
-            android:name=".Homepage"
-            android:exported="false" />
-        <activity
-            android:name=".Mainpage"
+            android:name=".feedback"
             android:exported="false" />
         <activity
             android:name=".signinpage"
@@ -40,7 +37,7 @@
             android:name=".loginpage"
             android:exported="false" />
         <activity
-            android:name=".feedback"
+            android:name=".Mainpage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

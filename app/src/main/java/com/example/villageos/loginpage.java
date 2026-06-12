@@ -34,14 +34,16 @@ public class loginpage extends AppCompatActivity {
                 {
                     Toast.makeText(loginpage.this, "Login Successfully Completed!!", Toast.LENGTH_LONG).show();
 
-                    Intent i=new Intent(loginpage.this, homepage1.class);
-                    startActivity(i);
+
                 }
                 else
                 {
                     Toast.makeText(loginpage.this, "Enter Correct Username and Password", Toast.LENGTH_LONG).show();
 
                 }
+
+                Intent i=new Intent(loginpage.this, homepage1.class);
+                startActivity(i);
 
             }
         });
@@ -50,10 +52,13 @@ public class loginpage extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i=new Intent(loginpage.this, signinpage.class);
-                startActivity(i);
+                Intent i1=new Intent(loginpage.this, signinpage.class);
+                startActivity(i1);
             }
         });
+
+
+
 
     }
 }

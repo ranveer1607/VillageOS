@@ -26,12 +26,15 @@ public class Mainpage extends AppCompatActivity {
 
                 Intent i=new Intent(Mainpage.this, loginpage.class);
                 startActivity(i);
+
             }
         });
+
         Button b2=findViewById(R.id.b2);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Intent a=new Intent(Mainpage.this, signinpage.class);
                 startActivity(a);
             }
