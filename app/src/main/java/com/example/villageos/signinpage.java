@@ -36,9 +36,12 @@ public class signinpage extends AppCompatActivity {
                 String d=e4.getText().toString();
                 String e=e5.getText().toString();
                 String s="Name is:"+a+"\nMobile no is"+b+"\nEmail is:"+c;
+
                 Toast.makeText(signinpage.this, s, Toast.LENGTH_LONG).show();
-                Intent i=new Intent(signinpage.this, Homepage.class);
+
+                Intent i=new Intent(signinpage.this, loginpage.class);
                 startActivity(i);
+
             }
         });
     }
