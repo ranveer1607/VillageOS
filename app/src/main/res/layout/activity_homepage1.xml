@@ -74,11 +74,31 @@
                     android:layout_width="380dp"
                     android:layout_height="200dp"
                     android:layout_marginLeft="15dp"
-                    android:layout_marginTop="15dp"
-                    android:background="@drawable/img_3"
-                    android:text="hiiiiii"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/village"
+                    android:text="Welcome Back"
                     android:textAlignment="gravity"
-                    android:textSize="50dp">
+                    android:textSize="25dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Stay Updated,Stay Connected"
+                    android:textSize="20dp"
+                    android:textStyle="italic">
 
                 </TextView>
 
@@ -265,7 +285,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_toRightOf="@id/ib4"
                     android:scaleType="fitXY"
-                    android:src="@drawable/scholarship5">
+                    android:src="@drawable/noticeboard">
 
                 </ImageButton>
 
@@ -278,7 +298,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_toRightOf="@id/ib5"
                     android:scaleType="fitXY"
-                    android:src="@drawable/waterspllya11">
+                    android:src="@drawable/job">
 
                 </ImageButton>
 
