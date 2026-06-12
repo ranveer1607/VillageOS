@@ -13,22 +13,10 @@
         android:theme="@style/Theme.VillageOS"
         tools:targetApi="31">
         <activity
-            android:name=".Mainpage"
-            android:exported="false" />
-        <activity
             android:name=".homepage1"
             android:exported="false" />
         <activity
             android:name=".noticeboard"
-            android:exported="false" />
-        <activity
-            android:name=".schemes"
-            android:exported="false" />
-        <activity
-            android:name=".Eventpage"
-            android:exported="false" />
-        <activity
-            android:name=".Emergencyconpage"
             android:exported="false" />
         <activity
             android:name=".healthcare"
@@ -37,7 +25,10 @@
             android:name=".jobemp"
             android:exported="false" />
         <activity
-            android:name=".feedback"
+            android:name=".Homepage"
+            android:exported="false" />
+        <activity
+            android:name=".Mainpage"
             android:exported="false" />
         <activity
             android:name=".signinpage"
@@ -49,7 +40,7 @@
             android:name=".loginpage"
             android:exported="false" />
         <activity
-            android:name=".splashscreen"
+            android:name=".feedback"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
