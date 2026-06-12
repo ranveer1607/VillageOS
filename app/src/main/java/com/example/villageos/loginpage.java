@@ -33,6 +33,9 @@ public class loginpage extends AppCompatActivity {
                 if(a.equals("ABC") && b.equals("ABC@123"))
                 {
                     Toast.makeText(loginpage.this, "Login Successfully Completed!!", Toast.LENGTH_LONG).show();
+
+                    Intent i=new Intent(loginpage.this, homepage1.class);
+                    startActivity(i);
                 }
                 else
                 {

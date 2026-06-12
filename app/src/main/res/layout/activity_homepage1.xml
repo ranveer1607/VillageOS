@@ -1,229 +1,319 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <LinearLayout
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:background="#0B8F3C"
-            android:gravity="center_vertical"
-            android:padding="16dp">
+            android:layout_height="84dp"
+            android:background="#3b8132"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="37dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/baseline_menu_24">
+
+            </ImageButton>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Smart Village"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
-                android:textStyle="bold"/>
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="15dp"
+                android:text="VillageOS"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+            <ImageButton
+                android:layout_width="37dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/baseline_circle_notifications_24">
+
+
+            </ImageButton>
         </LinearLayout>
-
-        <!-- Welcome Card -->
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_margin="12dp"
-            app:cardCornerRadius="15dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Welcome 👋"
-                    android:textSize="18sp"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Welcome to Smart Village App"
-                    android:textSize="16sp"
-                    android:layout_marginTop="8dp"/>
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <!-- Weather Card -->
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginEnd="12dp"
-            app:cardCornerRadius="15dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <TextView
-                    android:text="Weather Update"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:text="☀️ 28°C | Sunny"
-                    android:textSize="20sp"
-                    android:layout_marginTop="8dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <!-- Services -->
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Services"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_margin="12dp"/>
-
-        <GridLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:columnCount="2"
-            android:padding="8dp">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="160dp"
-                android:layout_height="120dp"
-                android:layout_margin="8dp"
-                app:cardCornerRadius="12dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="96dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="75dp"
-                        android:text="Healthcare"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="160dp"
-                android:layout_height="120dp"
-                android:layout_margin="8dp"
-                app:cardCornerRadius="12dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="🎉"
-                        android:textSize="30sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="Events"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="160dp"
-                android:layout_height="120dp"
-                android:layout_margin="8dp"
-                app:cardCornerRadius="12dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="🚨"
-                        android:textSize="30sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="Emergency"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="160dp"
-                android:layout_height="120dp"
-                android:layout_margin="8dp"
-                app:cardCornerRadius="12dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="📢"
-                        android:textSize="30sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="Notice Board"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
+            android:orientation="vertical"
+            >
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="77dp"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:layout_marginLeft="10dp"
-                android:text="🏥"
-                android:textSize="20dp" />
+                android:layout_width="380dp"
+                android:layout_height="150dp"
+                android:text="hiiiiii"
+                android:textSize="50dp"
 
-        </GridLayout>
+                android:background="@drawable/img_3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+
+                android:textAlignment="gravity">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Village News"
+                android:textStyle="bold"
+                android:textAlignment="gravity"
+
+                android:textSize="25dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="416dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_2">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="416dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/scholarship">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="416dp"
+                    android:layout_height="167dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/scholarship1">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="416dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/education">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="416dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/farmer">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="416dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/farmer">
+
+                </ImageButton>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="631dp">
+
+            <TextView
+                android:id="@+id/qs"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_span="3"
+                android:text="Quick Services"
+                android:textAlignment="gravity"
+                android:textSize="23dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/ib1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@id/qs"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/education">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/ib2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@id/qs"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-4dp"
+                android:layout_toRightOf="@id/ib1"
+                android:scaleType="fitXY"
+                android:src="@drawable/farmer">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/ib3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@id/qs"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-4dp"
+                android:layout_toRightOf="@id/ib2"
+                android:scaleType="fitXY"
+                android:src="@drawable/scholarship">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/ib4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@id/ib1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/education">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/ib5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@id/ib2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ib4"
+                android:scaleType="fitXY"
+                android:src="@drawable/farmer">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/ib6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@id/ib3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ib5"
+                android:scaleType="fitXY"
+                android:src="@drawable/scholarship">
+
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ib4"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Events"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/e"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/b1"
+                android:padding="9dp"
+                android:text="k">
+
+            </Button>
+
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/b1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/b2"
+                android:padding="9dp"
+                android:text="q">
+
+            </Button>
+
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/b2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/b3"
+                android:padding="9dp"
+                android:text="k">
+
+            </Button>
+
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/b3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/b4"
+                android:padding="9dp"
+                android:text="k">
+
+            </Button>
+
+        </RelativeLayout>
 
     </LinearLayout>
 
