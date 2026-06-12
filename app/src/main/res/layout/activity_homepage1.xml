@@ -78,7 +78,7 @@
                     android:background="@drawable/village"
                     android:text="Welcome Back"
                     android:textAlignment="gravity"
-                    android:textSize="25dp"
+                    android:textSize="35dp"
                     android:textStyle="bold">
 
                 </TextView>
