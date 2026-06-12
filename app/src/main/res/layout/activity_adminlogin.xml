@@ -17,7 +17,9 @@
             android:layout_width="214dp"
             android:layout_height="144dp"
             android:layout_marginTop="40dp"
-            android:src="@drawable/v1" />
+            android:src="@drawable/v1">
+
+        </ImageView>
 
 
 
@@ -27,7 +29,9 @@
             android:text="Admin Login"
             android:textStyle="bold"
             android:textColor="#138A36"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="16dp">
+
+        </TextView>
 
         <androidx.cardview.widget.CardView android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -40,7 +44,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:hint="Admin ID"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp">
+
+            </EditText>
 
 
         </androidx.cardview.widget.CardView>
@@ -58,7 +64,9 @@
                 android:layout_height="55dp"
                 android:hint="Password"
                 android:inputType="textPassword"
-                android:layout_marginTop="12dp"/>
+                android:layout_marginTop="12dp">
+
+            </EditText>
 
 
         </androidx.cardview.widget.CardView>
@@ -69,7 +77,9 @@
             android:text="LOGIN"
             android:backgroundTint="#138A36"
             android:textColor="#FFFFFF"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20dp">
+
+        </Button>
 
     </LinearLayout>
 
