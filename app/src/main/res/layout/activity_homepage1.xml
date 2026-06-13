@@ -155,7 +155,7 @@
                         android:layout_width="416dp"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/scholarship">
+                        android:src="@drawable/scholarship5">
 
                     </ImageButton>
 
