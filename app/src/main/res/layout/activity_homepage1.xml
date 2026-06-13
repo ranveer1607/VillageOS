@@ -52,7 +52,8 @@
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/baseline_circle_notifications_24">
+                android:id="@+id/btn12"
+                android:src="@drawable/img_4">
 
 
             </ImageButton>
@@ -78,7 +79,7 @@
                     android:background="@drawable/village"
                     android:text="Welcome Back"
                     android:textAlignment="gravity"
-                    android:textSize="25dp"
+                    android:textSize="35dp"
                     android:textStyle="bold">
 
                 </TextView>
@@ -94,7 +95,7 @@
                 <TextView
                     android:layout_width="380dp"
                     android:layout_height="200dp"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginLeft="5dp"
                     android:layout_marginTop="90dp"
                     android:text="Stay Updated,Stay Connected"
                     android:textSize="20dp"
@@ -232,7 +233,6 @@
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_below="@id/qs"
-                    android:layout_marginLeft="10dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/governscheme">
 
@@ -269,7 +269,6 @@
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_below="@id/ib1"
-                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/hospital1">
