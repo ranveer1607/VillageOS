@@ -55,7 +55,7 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:contentDescription="Scholarship"
-                    android:src="@drawable/scholarship"></ImageView>
+                    android:src="@drawable/scholarship4"></ImageView>
 
                 <LinearLayout
                     android:layout_width="0dp"
