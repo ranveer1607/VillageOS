@@ -17,9 +17,6 @@
             android:name=".loginpage"
             android:exported="false" />
         <activity
-            android:name=".profile"
-            android:exported="false" />
-        <activity
             android:name=".homepage1"
             android:exported="false" />
         <activity
