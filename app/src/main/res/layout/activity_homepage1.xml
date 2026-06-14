@@ -301,6 +301,16 @@
 
                 </ImageButton>
 
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottomNavigation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    app:menu="@menu/menufile"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="385dp"/>
+
+
             </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
