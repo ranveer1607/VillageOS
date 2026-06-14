@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VillageOS"
         tools:targetApi="31">
+
+        <activity
+            android:name=".loginpage"
+            android:exported="false" />
         <activity
             android:name=".profile"
             android:exported="false" />
@@ -28,9 +32,6 @@
             android:name=".jobemp"
             android:exported="false" />
         <activity
-            android:name=".Homepage"
-            android:exported="false" />
-        <activity
             android:name=".Mainpage"
             android:exported="false" />
         <activity
@@ -40,10 +41,10 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".loginpage"
+            android:name=".feedback"
             android:exported="false" />
         <activity
-            android:name=".feedback"
+            android:name=".notification_center"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
