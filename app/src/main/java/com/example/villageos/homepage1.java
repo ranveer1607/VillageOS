@@ -92,16 +92,11 @@ public class homepage1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i66=new Intent(homepage1.this, profilepage.class);
-                startActivity(i66);
+                Intent i77=new Intent(homepage1.this, profilepage.class);
+                startActivity(i77);
 
             }
         });
-
-
-
-
-
 
     }
 }
