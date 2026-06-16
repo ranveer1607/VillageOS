@@ -24,14 +24,14 @@
             android:text="Document Management"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"></TextView>
 
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_alignParentEnd="true"
             android:src="@android:drawable/ic_menu_search"
-            android:backgroundTint="#FFFFFF"/>
+            android:backgroundTint="#FFFFFF"></ImageView>
     </RelativeLayout>
 
 
@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:text="Aadhar Card"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="16dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -156,7 +156,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:text="Pan Card"
-                    android:textSize="15dp"
+                    android:textSize="15sp"
                     android:textStyle="bold">
 
                 </TextView>
