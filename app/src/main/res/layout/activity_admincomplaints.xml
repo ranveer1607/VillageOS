@@ -11,14 +11,14 @@
         android:gravity="center_vertical"
         android:padding="15dp">
 
-        <ImageButton
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/img_4"
+            android:text="<-"
             android:textColor="#FFFFFF"
             android:textSize="22sp">
 
-        </ImageButton>
+        </TextView>
 
         <TextView
             android:layout_width="0dp"
