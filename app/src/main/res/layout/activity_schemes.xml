@@ -6,7 +6,6 @@
     android:orientation="vertical"
     android:background="#F5F5F5">
 
-    <!-- Header -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -55,7 +54,7 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:contentDescription="Scholarship"
-                    android:src="@drawable/scholarship4"></ImageView>
+                    android:src="@drawable/scholarship5"></ImageView>
 
                 <LinearLayout
                     android:layout_width="0dp"

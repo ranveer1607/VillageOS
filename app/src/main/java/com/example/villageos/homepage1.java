@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,10 +20,8 @@ public class homepage1 extends AppCompatActivity {
         ib1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent i11=new Intent(homepage1.this, schemes.class);
+                Intent i11=new Intent(homepage1.this,schemes.class);
                 startActivity(i11);
-
             }
         });
 
@@ -32,7 +31,7 @@ public class homepage1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i22=new Intent(homepage1.this, Eventpage.class);
+                Intent i22=new Intent(homepage1.this,Eventpage.class);
                 startActivity(i22);
 
             }
@@ -44,7 +43,7 @@ public class homepage1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i33=new Intent(homepage1.this, Emergencyconpage.class);
+                Intent i33=new Intent(homepage1.this,Emergencyconpage.class);
                 startActivity(i33);
 
             }
@@ -56,7 +55,7 @@ public class homepage1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i44=new Intent(homepage1.this, healthcare.class);
+                Intent i44=new Intent(homepage1.this,healthcare.class);
                 startActivity(i44);
 
             }
@@ -68,7 +67,7 @@ public class homepage1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i55=new Intent(homepage1.this, noticeboard.class);
+                Intent i55=new Intent(homepage1.this,noticeboard.class);
                 startActivity(i55);
 
             }
@@ -80,7 +79,7 @@ public class homepage1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i66=new Intent(homepage1.this, jobemp.class);
+                Intent i66=new Intent(homepage1.this,jobemp.class);
                 startActivity(i66);
 
             }
@@ -92,7 +91,7 @@ public class homepage1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i77=new Intent(homepage1.this, profilepage.class);
+                Intent i77=new Intent(homepage1.this,profilepage.class);
                 startActivity(i77);
 
             }
