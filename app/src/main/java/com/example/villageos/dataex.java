@@ -10,6 +10,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class dataex extends AppCompatActivity {
     DatabaseReference db;
     @Override
@@ -19,8 +22,7 @@ public class dataex extends AppCompatActivity {
         EditText e1=findViewById(R.id.e1);
         EditText e2=findViewById(R.id.e2);
         Button b1=findViewById(R.id.b1);
-        StackWalker FirebaseAdatabase;
-        db=FirebaseAdatabase.getInstance().getReference("Information");        
+        db= FirebaseDatabase.getInstance().getReference("Information");
 
 
     }

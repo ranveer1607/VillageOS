@@ -51,10 +51,10 @@
                     android:id="@+id/e1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Mobile Number"
+                    android:hint="Enter Username"
                     android:drawableStart="@android:drawable/ic_menu_call"
                     android:padding="12dp"
-                    android:inputType="phone" />
+                    android:inputType="text" />
 
                 <EditText
                     android:id="@+id/e2"

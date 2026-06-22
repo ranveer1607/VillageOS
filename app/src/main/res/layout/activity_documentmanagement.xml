@@ -15,7 +15,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@android:drawable/ic_media_previous"
-            android:backgroundTint="#FFFFFF"/>
+            android:backgroundTint="#FFFFFF"></ImageView>
 
         <TextView
             android:layout_width="wrap_content"
@@ -24,14 +24,14 @@
             android:text="Document Management"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"></TextView>
 
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_alignParentEnd="true"
             android:src="@android:drawable/ic_menu_search"
-            android:backgroundTint="#FFFFFF"/>
+            android:backgroundTint="#FFFFFF"></ImageView>
     </RelativeLayout>
 
 
@@ -50,7 +50,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@android:drawable/ic_menu_save"/>
+                android:src="@android:drawable/ic_menu_save"></ImageView>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -64,18 +64,18 @@
                     android:layout_height="wrap_content"
                     android:text="Aadhar Card"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp"></TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Uploaded by: Sagar Patil"/>
+                    android:text="Uploaded by: Sagar Patil"></TextView>
             </LinearLayout>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="View"/>
+                android:text="View"></Button>
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -96,7 +96,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@android:drawable/ic_menu_save"/>
+                android:src="@android:drawable/ic_menu_save"></ImageView>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -110,18 +110,18 @@
                     android:layout_height="wrap_content"
                     android:text="Income Certificate"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp"></TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Uploaded by: Ramesh More"/>
+                    android:text="Uploaded by: Ramesh More"></TextView>
             </LinearLayout>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="View"/>
+                android:text="View"></Button>
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -156,7 +156,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:text="Pan Card"
-                    android:textSize="15dp"
+                    android:textSize="15sp"
                     android:textStyle="bold">
 
                 </TextView>
@@ -174,7 +174,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:text="View"
+                android:text="View">
+
+            </Button>
 
         </LinearLayout>
 
