@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0B8F3C"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@android:drawable/ic_media_previous"
+                android:tint="@android:color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="AICTE Pragati Scholarship"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Empowering Girls Through Technical Education"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <!-- Main Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!-- Top -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/s5"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="16dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AICTE Pragati Scholarship Scheme"
+                            android:textStyle="bold"
+                            android:textSize="24sp"
+                            android:textColor="#0B8F3C"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AICTE Scholarship Scheme"
+                            android:textColor="#1565F9"
+                            android:textSize="15sp"
+                            android:layout_marginTop="6dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The AICTE Pragati Scholarship Scheme provides financial assistance to meritorious girl students pursuing technical education in AICTE-approved institutions."
+                    android:textSize="18sp"
+                    android:textColor="#333333"
+                    android:layout_marginTop="18dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DDDDDD"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="18dp"/>
+
+                <!-- Eligibility -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eligibility"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#1565F9"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Indian Citizen&#10;• Girl student admitted to the 1st year of Diploma or Degree course&#10;• Studying in an AICTE-approved institution&#10;• Family annual income should not exceed ₹8,00,000"
+                    android:textSize="18sp"
+                    android:textColor="#333333"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Required Documents -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Required Documents"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#16A34A"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Aadhaar Card&#10;• Income Certificate&#10;• Admission Letter&#10;• Previous Marksheet&#10;• Bank Passbook&#10;• Passport Size Photograph"
+                    android:textSize="18sp"
+                    android:textColor="#333333"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Benefits -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Benefits"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#7C3AED"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="₹50,000 per year is provided to each selected girl student to cover tuition fees, books, equipment, software, laptop purchase and other educational expenses."
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1E3A8A"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Application Period -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application Period"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#F97316"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Applications are invited every academic year through the National Scholarship Portal. Students should check the portal regularly for updated dates."
+                    android:textSize="18sp"
+                    android:textColor="#333333"/>
+
+                <!-- About -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About the Scheme"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#B45309"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The AICTE Pragati Scholarship Scheme is an initiative of the All India Council for Technical Education (AICTE). The scheme encourages girls to pursue technical education by providing financial assistance to eligible students studying in AICTE-approved Degree and Diploma institutions. It promotes gender equality and supports higher education."
+                    android:textSize="17sp"
+                    android:textColor="#333333"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Official Website Button -->
+
+                <!-- Apply Button -->
+                <Button
+                    android:id="@+id/btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Apply Now"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#1565F9"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

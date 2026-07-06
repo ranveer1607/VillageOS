@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <!-- Banner -->
+
+        <ImageView
+            android:layout_width="326dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/p4" />
+
+        <!-- Title -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indira Gandhi National Widow Pension Scheme"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#1B5E20"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- About -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Scheme"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Indira Gandhi National Widow Pension Scheme (IGNWPS) is a Central Government social assistance scheme under the National Social Assistance Programme (NSAP). The scheme provides monthly financial assistance to eligible widows belonging to Below Poverty Line (BPL) households to support their basic living expenses."
+            android:textSize="16sp"
+            android:textColor="#444444"/>
+
+        <!-- Quick Information -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Information"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department : Ministry of Rural Development"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scheme : National Social Assistance Programme (NSAP)"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eligibility Age : 40–79 Years"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eligibility : Widow from a Below Poverty Line (BPL) Household"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Central Pension : ₹300 Per Month"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+        </LinearLayout>
+        <!-- Benefits -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Central Government provides a monthly pension of ₹300 to eligible widows under NSAP."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ State Governments may provide additional financial assistance as per their rules."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Pension amount is directly transferred to the beneficiary's Aadhaar-linked bank account through DBT."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Helps widows meet their basic daily living expenses and improve financial security."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Eligibility -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eligibility"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant must be an Indian citizen."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant must be a widow."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant must be between 40 and 79 years of age."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant must belong to a Below Poverty Line (BPL) household."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant should satisfy all eligibility conditions prescribed under the scheme."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Required Documents -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Required Documents"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📄 Aadhaar Card"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📄 Death Certificate of Husband"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📄 Age Proof"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📄 BPL Card / BPL Certificate"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🏦 Bank Passbook"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📱 Registered Mobile Number"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📷 Passport-size Photograph"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+        <!-- Who is Not Eligible -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who is Not Eligible"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#D32F2F"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Women who are not widows."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicants below 40 years or above 79 years of age."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicants who do not belong to a Below Poverty Line (BPL) household."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicants submitting false or incomplete documents."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Pension Details -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pension Details"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Eligible widows receive ₹300 per month as Central Government assistance under IGNWPS."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Many State Governments provide additional financial assistance under their own pension schemes."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Pension is credited directly to the beneficiary's Aadhaar-linked bank account through Direct Benefit Transfer (DBT)."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- How to Apply -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Apply"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Visit the nearest Gram Panchayat, Block Office, Municipality or Common Service Centre (CSC)."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Obtain the IGNWPS application form or apply through the State Government portal where available."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Fill in the application form with personal, bank and eligibility details."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Attach all required supporting documents."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Submit the application to the concerned authority. After verification and approval, the pension amount will be credited to the beneficiary's bank account."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+        <!-- Helpline -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Helpline"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For assistance, contact your nearest Gram Panchayat, Block Development Office, Municipality, District Social Welfare Office or Common Service Centre (CSC)."
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NSAP Helpline / State Social Welfare Office"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Official Website -->
+
+
+        <!-- Apply Now Button -->
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply Now"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#43A047"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

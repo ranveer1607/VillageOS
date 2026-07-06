@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0B8F3C"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@android:drawable/ic_media_previous"
+                android:tint="@android:color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="INSPIRE Scholarship"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Innovation in Science Pursuit for Inspired Research"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <!-- Main Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!-- Top -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/s7"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="16dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="INSPIRE Scholarship for Higher Education"
+                            android:textStyle="bold"
+                            android:textSize="23sp"
+                            android:textColor="#0B8F3C"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:text="Department of Science and Technology (DST)"
+                            android:textColor="#1565F9"
+                            android:textSize="15sp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="INSPIRE Scholarship for Higher Education (SHE) encourages talented students to pursue higher education in Basic and Natural Sciences by providing financial assistance and research opportunities."
+                    android:textSize="18sp"
+                    android:textColor="#333333"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DDDDDD"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="18dp"/>
+
+                <!-- Eligibility -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eligibility"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#1565F9"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="• Indian Citizen&#10;• Age 17–22 years&#10;• Top 1% scorer in Class XII Board Examination or other eligible merit criteria&#10;• Pursuing B.Sc., B.S., Integrated M.Sc. or M.S. in Basic and Natural Sciences at a recognized institution"
+                    android:textSize="18sp"
+                    android:textColor="#333333"/>
+
+                <!-- Required Documents -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Required Documents"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#16A34A"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Aadhaar Card&#10;• Class XII Marksheet&#10;• Admission Proof&#10;• Bank Passbook&#10;• Passport Size Photograph&#10;• Income/Category Certificate (if applicable)"
+                    android:textSize="18sp"
+                    android:textColor="#333333"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Benefits -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Benefits"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#7C3AED"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="₹80,000 per year is awarded to selected students. The scholarship includes annual financial assistance and support for summer research projects to encourage scientific research."
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1E3A8A"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Application Period -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application Period"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#F97316"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Applications are generally invited every year between September and November. Students should visit the INSPIRE Portal for the latest notification."
+                    android:textSize="18sp"
+                    android:textColor="#333333"/>
+
+                <!-- About -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About the Scheme"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#B45309"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The INSPIRE Scholarship for Higher Education (SHE) is a flagship programme of the Department of Science and Technology (DST), Government of India. It encourages talented students to pursue undergraduate and postgraduate studies in Basic and Natural Sciences. The scheme promotes scientific research and innovation by providing financial assistance and research opportunities to meritorious students."
+                    android:textSize="17sp"
+                    android:textColor="#333333"
+                    android:layout_marginTop="8dp"/>
+
+                <!-- Official Website Button -->
+
+                <!-- Apply Button -->
+                <Button
+                    android:id="@+id/btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Apply Now"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#1565F9"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <!-- Banner Image -->
+
+        <ImageView
+            android:layout_width="244dp"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f5"
+            android:layout_marginLeft="70dp"/>
+
+        <!-- Title -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PMKSY"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="#2E7D32"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pradhan Mantri Krishi Sinchayee Yojana"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- About -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About PMKSY"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#1B5E20"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) was launched on 1 July 2015 by the Government of India to improve irrigation facilities and ensure efficient water use in agriculture. The scheme aims to provide 'Har Khet Ko Pani' (Water to Every Field) and promote 'Per Drop More Crop' through micro-irrigation technologies such as drip and sprinkler irrigation."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Quick Information -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Information"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#1B5E20"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scheme Type : Irrigation Development Scheme"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Launched : 1 July 2015"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Purpose : Improve Irrigation and Water Use Efficiency"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Main Components : Har Khet Ko Pani, Per Drop More Crop, Watershed Development"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beneficiaries : Farmers Across India"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+        </LinearLayout>
+        <!-- Objectives -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Objectives"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#1B5E20"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Provide irrigation facilities to every agricultural field under 'Har Khet Ko Pani'."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Promote efficient use of water through micro-irrigation under 'Per Drop More Crop'."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Increase water conservation and improve groundwater recharge."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Improve agricultural productivity and ensure sustainable farming."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Reduce water wastage and maximize irrigation efficiency."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Benefits -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#1B5E20"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Ensures better irrigation coverage for farms."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Encourages water-saving technologies like drip and sprinkler irrigation."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Helps increase crop yield and farmers' income."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Promotes efficient use of available water resources."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Supports sustainable agriculture and long-term water conservation."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+        <!-- Eligibility -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eligibility"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#1B5E20"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant must be an Indian farmer."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Individual farmers, groups of farmers and Farmer Producer Organizations (FPOs) may be eligible under applicable PMKSY components."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Farmers should own or cultivate agricultural land."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Farmers applying for micro-irrigation assistance must satisfy the guidelines issued by their State Government."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Required identity and land-related documents must be submitted during application."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Who is Not Eligible -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who is Not Eligible"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#C62828"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Individuals who are not engaged in agriculture."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicants who fail to meet the eligibility criteria prescribed under the relevant PMKSY component."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicants submitting false, incomplete or invalid documents."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+        <!-- Required Documents -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Required Documents"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#1B5E20"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📄 Aadhaar Card"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🪪 Identity Proof (Voter ID, PAN Card or Driving Licence)"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🌾 Land Ownership Records or Cultivation Proof"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🏦 Bank Passbook"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📱 Registered Mobile Number"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📝 Passport Size Photograph"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- How to Apply -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Apply"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#1B5E20"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Visit the nearest Agriculture Department office or authorized implementing agency."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Collect and fill out the PMKSY application form."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Submit the required documents for verification."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. The application and land details are verified by the concerned authority."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. After approval, eligible assistance for irrigation or micro-irrigation is provided according to PMKSY guidelines."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Features -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Features"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#1B5E20"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Promotes 'Har Khet Ko Pani' (Water to Every Field)."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Encourages micro-irrigation through 'Per Drop More Crop'."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Improves water-use efficiency and conserves water resources."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Supports sustainable agriculture and increases crop productivity."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Helps farmers adopt modern irrigation technologies."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+        <!-- Helpline -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Helpline"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#1B5E20"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PMKSY Helpdesk"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="☎ Agriculture Department / District Agriculture Office"
+                android:textSize="16sp"
+                android:paddingTop="8dp"/>
+
+        </LinearLayout>
+
+        <!-- Official Website -->
+
+        <!-- Apply Button -->
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply Now"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#43A047"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

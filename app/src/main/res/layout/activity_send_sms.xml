@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"
+       android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#FF0000"></TextView>
+
+    <EditText
+        android:id="@+id/sms"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Enter mobile No"
+        android:inputType="textMultiLine"
+
+        android:textSize="25dp"></EditText>
+
+
+    <EditText
+        android:id="@+id/etSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:drawable/edit_text"
+        android:gravity="top"
+        android:hint="Enter message..."
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:textSize="25dp"></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn"
+        android:layout_marginLeft="130dp"></Button>
+
+
+</LinearLayout>

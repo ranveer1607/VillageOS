@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <!-- Banner -->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="345dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/p1" />
+
+        <!-- Title -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shravan Bal Seva State Pension Scheme"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#1B5E20"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="श्रावण बाळ सेवा राज्य निवृत्तीवेतन योजना"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- About -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Scheme"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Shravan Bal Seva State Pension Scheme is a social security scheme of the Government of Maharashtra. It provides monthly financial assistance to eligible elderly citizens who are 65 years of age or above and meet the prescribed income or BPL eligibility conditions."
+            android:textSize="16sp"
+            android:textColor="#444444"/>
+
+        <!-- Quick Information -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Information"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department : Social Justice and Special Assistance Department"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State : Maharashtra"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Age : 65 Years and Above"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Financial Assistance : ₹1,500 Per Month"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+        </LinearLayout>
+        <!-- Benefits -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Monthly pension of ₹1,500."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Financial support for elderly citizens."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Pension amount is directly credited to the beneficiary's bank account."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Eligibility -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eligibility"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant must be a permanent resident of Maharashtra."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant should be 65 years of age or above."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant should belong to an eligible low-income/BPL family as per Government rules."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant should not be receiving similar financial assistance under another pension scheme, if restricted by the scheme rules."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Required Documents -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Required Documents"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📄 Aadhaar Card"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📄 Age Proof"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📄 Income Certificate"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📄 Bank Passbook"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📄 Residence Certificate"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+        <!-- Who is Not Eligible -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who is Not Eligible"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#D32F2F"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicants who do not satisfy the prescribed age and income criteria."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicants receiving another pension if not permitted under the scheme rules."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicants who submit incomplete or incorrect documents."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- How to Apply -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Apply"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Visit the nearest Gram Panchayat, Talathi Office or Setu/CSC Centre."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Collect the Shravan Bal Seva Pension application form."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Fill in all required details correctly."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Attach the required documents."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Submit the application to the concerned office."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Official Website -->
+
+
+        <!-- Buttons -->
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply Now"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#43A047"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

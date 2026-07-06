@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Notification"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"></TextView>
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textSize="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/etRecipient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recipient Name"
+            android:textSize="20dp"
+            android:layout_marginTop="8dp"></EditText>
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Message"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="8dp"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send To:"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"></TextView>
+
+        <CheckBox
+            android:id="@+id/cbAllUsers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="All Users"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/cbVillagers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Villagers"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/cbSarpanch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Sarpanch"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/cbOfficers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Officers"></CheckBox>
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Notification"
+            android:textSize="25dp"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginTop="80dp"></Button>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F8F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <!-- Banner -->
+
+        <ImageView
+            android:layout_width="354dp"
+            android:layout_height="335dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/p6" />
+
+        <!-- Title -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pradhan Mantri Kisan Maandhan Yojana"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#1B5E20"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="प्रधानमंत्री किसान मानधन योजना"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- About -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Scheme"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Pradhan Mantri Kisan Maandhan Yojana (PM-KMY) is a voluntary and contributory pension scheme launched by the Government of India to provide social security to small and marginal farmers. Farmers contribute a fixed monthly amount until the age of 60 years, after which they receive a minimum assured pension of ₹3,000 per month."
+            android:textSize="16sp"
+            android:textColor="#444444"/>
+
+        <!-- Quick Information -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Information"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department : Ministry of Agriculture and Farmers Welfare"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scheme Type : Central Sector Scheme"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entry Age : 18–40 Years"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monthly Contribution : ₹55–₹200 (Based on Entry Age)"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assured Pension : ₹3,000 Per Month After 60 Years"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+
+        </LinearLayout>
+        <!-- Benefits -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Assured monthly pension of ₹3,000 after attaining 60 years of age."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ The Central Government contributes an amount equal to the farmer's monthly contribution."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ After the subscriber's death, the spouse is eligible to receive 50% of the pension as family pension."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Contributions can be auto-debited from the beneficiary's bank account."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✔ Provides financial security to farmers during old age."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Eligibility -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eligibility"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant must be an Indian citizen."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant must be a Small or Marginal Farmer owning cultivable land up to 2 hectares."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Entry age should be between 18 and 40 years."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant must have a valid Aadhaar number and savings bank account."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Applicant should not be covered under any other statutory social security pension scheme."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Required Documents -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Required Documents"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📄 Aadhaar Card"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🏦 Bank Passbook"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📱 Registered Mobile Number"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🌾 Land Ownership Documents"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📷 Passport-size Photograph"
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+        <!-- Who is Not Eligible -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who is Not Eligible"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#D32F2F"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Farmers owning more than 2 hectares of cultivable land."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Farmers below 18 years or above 40 years at the time of enrolment."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Farmers covered under statutory social security schemes such as NPS, EPFO or ESIC."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Farmers enrolled under Pradhan Mantri Shram Yogi Maandhan (PM-SYM) or Pradhan Mantri Laghu Vyapari Maandhan (PM-LVM)."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Institutional landholders and persons covered under the exclusion criteria prescribed by the Government."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Contribution Details -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contribution Details"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Farmers contribute between ₹55 and ₹200 per month depending on their age at the time of joining."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• The Central Government contributes an equal matching amount to the pension fund."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Contributions continue until the subscriber reaches 60 years of age."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• After attaining 60 years, the beneficiary receives a minimum assured pension of ₹3,000 per month."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+        <!-- How to Apply -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Apply"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Visit the nearest Common Service Centre (CSC)."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Carry your Aadhaar Card, Bank Passbook and Land Records."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Complete the PM-KMY enrolment form and provide Aadhaar authentication."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Choose the auto-debit option for your monthly contribution from your bank account."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. After successful registration, you will receive a Pension Card and your monthly contributions will begin."
+                android:textSize="16sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+        <!-- Helpline -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Helpline"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PM-Kisan Helpdesk"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="☎ 155261&#10;☎ 1800-115-526&#10;☎ 011-24300606"
+                android:textSize="16sp"
+                android:paddingTop="8dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Official Website -->
+
+
+        <!-- Apply Button -->
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply Now"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#43A047"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
