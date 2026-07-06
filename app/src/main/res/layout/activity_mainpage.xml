@@ -29,7 +29,16 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginTop="40dp"
-        android:text="LOGIN"
+        android:text="USER LOGIN"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:text="ADMIN LOGIN"
         android:textColor="#FFFFFF"
         android:backgroundTint="#4CAF50" />
 

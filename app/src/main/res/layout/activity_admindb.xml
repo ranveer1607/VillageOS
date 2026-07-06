@@ -75,10 +75,11 @@
                    android:padding="15dp">
 
                    <TextView
-                       android:layout_width="wrap_content"
+                       android:layout_width="200dp"
                        android:layout_height="wrap_content"
-                       android:text="Welcome Admin!"
+                       android:text=""
                        android:textColor="#138A35"
+                       android:id="@+id/w1"
                        android:textSize="22dp"
                        android:textStyle="bold"
                        >
@@ -129,6 +130,7 @@
                                 <ImageView
                                     android:layout_width="157dp"
                                     android:layout_height="50dp"
+                                    android:id="@+id/t1"
                                     android:src="@drawable/img_4">
 
                                 </ImageView>
@@ -144,7 +146,6 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="250"
                                     android:textSize="24sp" >
 
                                 </TextView>
@@ -184,7 +185,7 @@
                                 <ImageView
                                     android:layout_width="157dp"
                                     android:layout_height="50dp"
-                                    android:id="@+id/i1"
+                                    android:id="@+id/t2"
                                     android:src="@drawable/img_5">
 
                                 </ImageView>
@@ -200,7 +201,6 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="14"
                                     android:textSize="24sp">
 
                                 </TextView>
@@ -249,6 +249,7 @@
                                 <ImageView
                                     android:layout_width="48dp"
                                     android:layout_height="52dp"
+                                    android:id="@+id/t3"
                                     android:src="@drawable/img_6">
 
                                 </ImageView>
@@ -263,7 +264,6 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="10"
                                     android:textSize="24sp">
 
                                 </TextView>
@@ -277,6 +277,7 @@
 
 
                         </LinearLayout>
+
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
@@ -303,6 +304,7 @@
                                 <ImageView
                                     android:layout_width="48dp"
                                     android:layout_height="52dp"
+                                    android:id="@+id/t4"
                                     android:src="@drawable/img_7">
 
                                 </ImageView>
@@ -317,7 +319,6 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="8"
                                     android:textSize="24sp">
 
                                 </TextView>
@@ -366,6 +367,7 @@
                                 <ImageView
                                     android:layout_width="48dp"
                                     android:layout_height="52dp"
+                                    android:id="@+id/t5"
                                     android:src="@drawable/img_8">
 
                                 </ImageView>
@@ -380,7 +382,6 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="12"
                                     android:textSize="24sp">
 
                                 </TextView>
@@ -420,6 +421,7 @@
                                 <ImageView
                                     android:layout_width="67dp"
                                     android:layout_height="54dp"
+                                    android:id="@+id/t6"
                                     android:src="@drawable/img_9">
 
                                 </ImageView>
@@ -434,7 +436,6 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="35"
                                     android:textSize="24sp">
 
                                 </TextView>

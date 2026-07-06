@@ -3,199 +3,172 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5">
+    android:background="#FFFFFF">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Header -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="#0B8F3C"
+            android:layout_height="70dp"
+            android:background="#2E7D32"
             android:gravity="center_vertical"
-            android:padding="16dp">
+            android:padding="15dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="←"
-                android:textColor="#FFFFFF"
-                android:textSize="35dp"></TextView>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="80dp"
                 android:text="Healthcare"
-                android:textColor="#FFFFFF"
+                android:textSize="20sp"
                 android:textStyle="bold"
-                android:textSize="30dp"></TextView>
+                android:textColor="#FFFFFF"/>
         </LinearLayout>
 
-        <!-- Nearby Hospitals -->
+        <Button
+            android:id="@+id/btnAmbulance"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            android:text="🚑 CALL AMBULANCE"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D32F2F"
+            android:textSize="18sp"/>
+
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            app:cardCornerRadius="12dp">
+            android:layout_margin="10dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:gravity="center_vertical"
-                android:padding="16dp">
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/hospital1"></ImageView>
-
-                <LinearLayout
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:orientation="vertical">
+                    android:text="Nearby Hospitals"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2E7D32"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Nearby Hospitals"
-                        android:textSize="25sp"
-                        android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="🏥 Primary Health Center\n📞 9876543210\n📍 Village Main Road"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Find hospitals near you."
-                        android:textSize="19sp"></TextView>
-                </LinearLayout>
             </LinearLayout>
+
         </androidx.cardview.widget.CardView>
 
-        <!-- Ambulance -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            app:cardCornerRadius="12dp">
+            android:layout_margin="10dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:gravity="center_vertical"
-                android:padding="16dp">
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/ambulance"></ImageView>
-
-                <LinearLayout
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:orientation="vertical">
+                    android:text="Doctor Appointment"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2E7D32"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Ambulance Number"
-                        android:textSize="25sp"
-                        android:textStyle="bold"></TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Name"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="108 / 102"
-                        android:textSize="19sp"></TextView>
-                </LinearLayout>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Problem"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Book Appointment"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#2E7D32"
+                    android:textColor="#FFFFFF"/>
             </LinearLayout>
+
         </androidx.cardview.widget.CardView>
 
-        <!-- Blood Bank -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            app:cardCornerRadius="12dp">
+            android:layout_margin="10dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:gravity="center_vertical"
-                android:padding="16dp">
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/bloodbank"></ImageView>
-
-                <LinearLayout
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:orientation="vertical">
+                    android:text="Health Camps"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2E7D32"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Blood Bank"
-                        android:textSize="25sp"
-                        android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="• Free Checkup Camp - 5 July\n• Vaccination Camp - 10 July\n• Blood Donation Camp - 15 July"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Find blood banks."
-                        android:textSize="19sp"></TextView>
-                </LinearLayout>
             </LinearLayout>
+
         </androidx.cardview.widget.CardView>
 
-        <!-- Health Camps -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
-            app:cardCornerRadius="12dp">
+            android:layout_margin="10dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:gravity="center_vertical"
-                android:padding="16dp">
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
 
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/healthcamp"></ImageView>
-
-                <LinearLayout
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:orientation="vertical">
+                    android:text="Medicine  Pharmacy"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#2E7D32"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Health Camps"
-                        android:textSize="25sp"
-                        android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="💊 Medical Store Open 9AM - 10PM\n📞 9123456780"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="View upcoming health camps."
-                        android:textSize="19sp"></TextView>
-                </LinearLayout>
             </LinearLayout>
+
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>

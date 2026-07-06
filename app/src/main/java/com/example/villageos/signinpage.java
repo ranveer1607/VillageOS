@@ -47,9 +47,7 @@ public class signinpage extends AppCompatActivity {
                 sign cg = new sign(a, b, d, e);
                 String uid = db.push().getKey();
 
-                // ✅ FIX: success nantar loginpage la ja
-                db.child(uid).setValue(cg)
-                        .addOnSuccessListener(unused -> {
+                db.child(uid).setValue(cg).addOnSuccessListener(unused -> {
                             Toast.makeText(signinpage.this, "Store", Toast.LENGTH_LONG).show();
 
                             // SMS pathav
@@ -63,10 +61,9 @@ public class signinpage extends AppCompatActivity {
                                 Toast.makeText(signinpage.this, "Message Sent successfully!", Toast.LENGTH_LONG).show();
                             }
 
-                            // ✅ LOGIN PAGE LA JA
                             Intent i = new Intent(signinpage.this, loginpage.class);
                             startActivity(i);
-                            finish(); // signup page band kar
+                            finish();
                         })
                         .addOnFailureListener(err ->
                                 Toast.makeText(signinpage.this, "Fail", Toast.LENGTH_LONG).show()

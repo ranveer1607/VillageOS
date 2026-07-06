@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 <ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -17,18 +23,14 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/menuBtn"
                 android:layout_width="37dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
-                android:paddingLeft="0dp"
-                android:paddingTop="0dp"
-                android:paddingRight="0dp"
-                android:paddingBottom="0dp"
+                android:padding="0dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/baseline_menu_24">
-
-            </ImageButton>
+                android:src="@drawable/baseline_menu_24"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -72,14 +74,15 @@
                 >
 
                 <TextView
-                    android:layout_width="380dp"
+                    android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="40dp"
                     android:background="@drawable/village"
-                    android:text="Welcome Back"
                     android:textAlignment="gravity"
-                    android:textSize="35dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/w1"
                     android:textStyle="bold">
 
                 </TextView>
@@ -95,8 +98,8 @@
                 <TextView
                     android:layout_width="380dp"
                     android:layout_height="200dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="90dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="120dp"
                     android:text="Stay Updated,Stay Connected"
                     android:textSize="20dp"
                     android:textStyle="italic">
@@ -108,6 +111,37 @@
 
         </androidx.cardview.widget.CardView>
 
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:text="Weather Update"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="☀️ 28°C | Sunny"
+                    android:textSize="20sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -148,15 +182,7 @@
                         android:layout_width="416dp"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        android:src="@drawable/img_2">
-
-                    </ImageButton>
-
-                    <ImageButton
-                        android:layout_width="416dp"
-                        android:layout_height="wrap_content"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/scholarship5">
+                        android:src="@drawable/gramnotice">
 
                     </ImageButton>
 
@@ -164,31 +190,39 @@
                         android:layout_width="416dp"
                         android:layout_height="167dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/scholarship1">
+                        android:src="@drawable/w1">
 
                     </ImageButton>
 
                     <ImageButton
                         android:layout_width="416dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="167dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/education">
+                        android:src="@drawable/gramsabha">
 
                     </ImageButton>
 
                     <ImageButton
                         android:layout_width="416dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="167dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/farmer">
+                        android:src="@drawable/r1">
 
                     </ImageButton>
 
                     <ImageButton
                         android:layout_width="416dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="167dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/farmer">
+                        android:src="@drawable/g1">
+
+                    </ImageButton>
+
+                    <ImageButton
+                        android:layout_width="416dp"
+                        android:layout_height="167dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/o1">
 
                     </ImageButton>
 
@@ -202,7 +236,6 @@
 
 
 
-
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -212,7 +245,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="447dp">
+                android:layout_height="350dp">
 
                 <TextView
                     android:id="@+id/qs"
@@ -297,24 +330,24 @@
                     android:layout_marginTop="10dp"
                     android:layout_toRightOf="@id/ib5"
                     android:scaleType="fitXY"
-                    android:src="@drawable/job">
+                    android:src="@drawable/c11">
 
                 </ImageButton>
-
-                <com.google.android.material.bottomnavigation.BottomNavigationView
-                    android:id="@+id/bottomNavigation"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#FFFFFF"
-                    app:menu="@menu/menufile"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginTop="385dp"/>
 
 
             </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
-
     </LinearLayout>
 
 </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:menu="@menu/menufile"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="385dp"/>
+</RelativeLayout>
