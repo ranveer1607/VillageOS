@@ -82,7 +82,8 @@
                 android:layout_height="wrap_content"
                 android:text="Pending"
                 android:background="#FFE082"
-                android:padding="6dp"/>
+                android:id="@+id/t1"
+                android:padding="6dp"></TextView>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
@@ -133,6 +134,7 @@
                 android:layout_height="wrap_content"
                 android:text="Resolved"
                 android:background="#A5D6A7"
+                android:id="@+id/t2"
                 android:padding="6dp"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -183,6 +185,7 @@
                 android:layout_height="wrap_content"
                 android:text="In Progress"
                 android:background="#90CAF9"
+                android:id="@+id/t3"
                 android:padding="6dp"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>

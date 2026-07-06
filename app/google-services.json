@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "122331188560",
+    "project_id": "villageos-75723",
+    "storage_bucket": "villageos-75723.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122331188560:android:89ffa397044b0a26833055",
+        "android_client_info": {
+          "package_name": "com.example.villageos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr3nM7fx-bfF5ow0ZmY7703ltNAaDJUNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -19,13 +19,121 @@
         android:theme="@style/Theme.VillageOS"
         tools:targetApi="31">
         <activity
-            android:name=".splashscreen"
+            android:name=".Education10"
+            android:exported="false" />
+        <activity
+            android:name=".Education9"
+            android:exported="false" />
+        <activity
+            android:name=".Education8"
+            android:exported="false" />
+        <activity
+            android:name=".Education7"
+            android:exported="false" />
+        <activity
+            android:name=".Education6"
+            android:exported="false" />
+        <activity
+            android:name=".Education5"
+            android:exported="false" />
+        <activity
+            android:name=".Education4"
+            android:exported="false" />
+        <activity
+            android:name=".Education3"
+            android:exported="false" />
+        <activity
+            android:name=".Education2"
+            android:exported="false" />
+        <activity
+            android:name=".Education1"
+            android:exported="false" />
+        <activity
+            android:name=".Education_schemes"
+            android:exported="false" />
+        <activity
+            android:name=".Pension7"
+            android:exported="false" />
+        <activity
+            android:name=".Pension6"
+            android:exported="false" />
+        <activity
+            android:name=".Pension5"
+            android:exported="false" />
+        <activity
+            android:name=".Pension4"
+            android:exported="false" />
+        <activity
+            android:name=".Pension3"
+            android:exported="false" />
+        <activity
+            android:name=".Pension2"
+            android:exported="false" />
+        <activity
+            android:name=".Pension1"
+            android:exported="false" />
+        <activity
+            android:name=".Penssion_Schemes"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer10"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer9"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer8"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer7"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer6"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer5"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer4"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer3"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer2"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer1"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer_schemes"
+            android:exported="false" />
+        <activity
+            android:name=".scholarship_schemes"
+            android:exported="false" />
+        <activity
+            android:name=".G_Scheme1"
+            android:exported="false" />
+        <activity
+            android:name=".gscheme16"
+            android:exported="false" />
+        <activity
+            android:name=".gscheme15"
+            android:exported="false" />
+        <activity
+            android:name=".gscheme14"
+            android:exported="false" />
+        <activity
+            android:name=".gscheme17"
+            android:exported="false" />
+        <activity
+            android:name=".gscheme13"
+            android:exported="false" />
+        <activity
+            android:name=".gscheme1_2"
             android:exported="false" />
         <activity
             android:name=".Send_SMS"
-            android:exported="false" />
-        <activity
-            android:name=".feedback"
             android:exported="false" />
         <activity
             android:name=".notification_center"
@@ -55,10 +163,10 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".documentmanagement"
+            android:name=".feedback"
             android:exported="false" />
         <activity
-            android:name=".G_Scheme1"
+            android:name=".schemes"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -14,6 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text=""
             android:textColor="#FFFFFF"
             android:textSize="22sp">
 
@@ -99,7 +100,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Pending"
-                        android:backgroundTint="#4CAF50">
+                        android:backgroundTint="#FFC107">
 
                     </Button>
                 </LinearLayout>
@@ -162,7 +163,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Pending"
-                        android:backgroundTint="#4CAF50">
+                        android:backgroundTint="#FFC107">
 
                     </Button>
                 </LinearLayout>

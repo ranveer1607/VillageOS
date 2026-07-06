@@ -6,7 +6,6 @@
     android:orientation="vertical"
     android:background="#F5F5F5">
 
-    <!-- Header -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -47,6 +46,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
+                android:id="@+id/schemep1"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -55,7 +55,7 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:contentDescription="Scholarship"
-                    android:src="@drawable/scholarship4"></ImageView>
+                    android:src="@drawable/scholarship5"></ImageView>
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -88,6 +88,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
+                android:id="@+id/g2"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -131,7 +132,9 @@
                 android:layout_height="150dp"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
-                android:padding="12dp">
+                android:id="@+id/g3"
+                android:padding="12dp"
+              >
 
                 <ImageView
                     android:layout_width="70dp"

@@ -35,7 +35,7 @@
             android:layout_height="200dp"
             android:layout_margin="10dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/road"/>
+            android:src="@drawable/waterspllya11"/>
 
         <androidx.cardview.widget.CardView
             xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -53,7 +53,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Road Damage"
+                    android:text="Water Supply"
                     android:textSize="20sp"
                     android:textStyle="bold"></TextView>
 
@@ -66,7 +66,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Name : Sagar Patil"></TextView>
+                    android:text="Name : Ramesh patil"></TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Date : 10 May 2024"></TextView>
+                    android:text="Date : 08 May 2024"></TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -87,7 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Description : Road is damaged and causing traffic issues." />
+                    android:text="Description : Water supply is not reatched at popatwadi" />
 
                 <TextView
                     android:layout_width="wrap_content"
