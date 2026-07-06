@@ -46,6 +46,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
+                android:id="@+id/schemep1"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -87,6 +88,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
+                android:id="@+id/g2"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
                 android:padding="12dp">
@@ -130,7 +132,9 @@
                 android:layout_height="150dp"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
-                android:padding="12dp">
+                android:id="@+id/g3"
+                android:padding="12dp"
+              >
 
                 <ImageView
                     android:layout_width="70dp"
