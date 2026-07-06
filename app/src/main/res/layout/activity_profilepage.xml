@@ -59,17 +59,17 @@
                     android:layout_marginStart="12dp"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <EditText
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:text="Unknown"
+                        android:id="@+id/e3"
                         android:textSize="18sp"
                         android:textStyle="bold"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <EditText
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:text="📞 8263995994"/>
+                        android:id="@+id/e4" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -107,6 +107,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
+                    android:id="@+id/t10"
                     android:text="My Complaints"/>
 
                 <TextView
@@ -143,6 +144,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
+                    android:id="@+id/t20"
                     android:text="My Feedback"/>
 
                 <TextView
@@ -179,6 +181,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
+                    android:id="@+id/t3"
                     android:text="Settings"/>
 
                 <TextView
@@ -215,6 +218,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
+                    android:id="@+id/l1"
                     android:text="Logout"/>
 
                 <TextView
@@ -237,7 +241,7 @@
             android:layout_marginBottom="12dp"
             app:cardCornerRadius="10dp">
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
@@ -246,14 +250,18 @@
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+                    android:id="@+id/e1"
                     android:src="@android:drawable/ic_menu_camera"/>
 
                 <TextView
-                    android:layout_width="0dp"
+                    android:id="@+id/t40"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
+                    android:layout_toRightOf="@id/e1"
+                    android:layout_marginRight="20dp"
                     android:layout_weight="1"
-                    android:text="Camera Settings"/>
+                    android:text="Emergency Contact" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -262,7 +270,7 @@
                     android:textSize="18sp"/>
 
 
-            </LinearLayout>
+            </RelativeLayout>
 
 
         </androidx.cardview.widget.CardView>

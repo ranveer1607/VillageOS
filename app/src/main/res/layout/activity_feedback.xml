@@ -7,7 +7,6 @@
     android:orientation="vertical"
     android:background="#FFFFFF">
 
-    <!-- Header -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -30,6 +29,22 @@
         android:orientation="vertical"
         android:padding="20dp">
 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"></TextView>
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/n1"></EditText>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,7 +53,7 @@
             android:textSize="22sp"></TextView>
 
         <RatingBar
-            android:id="@+id/ratingBar"
+            android:id="@+id/r1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:numStars="5"
@@ -54,7 +69,7 @@
             android:layout_marginTop="20dp"></TextView>
 
         <EditText
-            android:id="@+id/etSuggestion"
+            android:id="@+id/es"
             android:layout_width="match_parent"
             android:layout_height="190dp"
             android:layout_marginTop="19dp"
@@ -65,7 +80,7 @@
             android:inputType="textMultiLine"></EditText>
 
         <Button
-            android:id="@+id/btnSubmit"
+            android:id="@+id/btn"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="50dp"

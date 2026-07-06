@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -39,6 +40,10 @@ int temp;
             public void onClick(View view) {
                 String USERNAME=e1.getText().toString().trim();
                 String PASSWORD=e2.getText().toString().trim();
+                Intent i=new Intent(loginpage.this,homepage1.class);
+                i.putExtra("NAME",USERNAME);
+                startActivity(i);
+
                 db.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -55,9 +60,7 @@ int temp;
                         }
                         if (temp == 1) {
                             Toast.makeText(loginpage.this, "login successfull", Toast.LENGTH_LONG).show();
-                            Intent i = new Intent(loginpage.this, homepage1.class);
-                            startActivity(i);
-                            finish();
+
                             temp = 0;
                         } else {
                             Toast.makeText(loginpage.this, "incorrect pass ", Toast.LENGTH_LONG).show();
@@ -82,6 +85,7 @@ int temp;
                 startActivity(i1);
             }
         });
+
 
 
 

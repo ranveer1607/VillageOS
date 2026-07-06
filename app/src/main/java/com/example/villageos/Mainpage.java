@@ -44,5 +44,16 @@ public class Mainpage extends AppCompatActivity {
         });
 
 
+        Button b3=findViewById(R.id.b3);
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent a11=new Intent(Mainpage.this, Adminlogin.class);
+                startActivity(a11);
+            }
+        });
+
+
     }
 }

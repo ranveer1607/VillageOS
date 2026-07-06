@@ -13,7 +13,54 @@
         android:theme="@style/Theme.VillageOS"
         tools:targetApi="31">
         <activity
+            android:name=".Adevent"
+            android:exported="false" />
+        <activity
+            android:name=".Adscheme"
+            android:exported="false" />
+        <activity
+            android:name=".adfeedback"
+            android:exported="false" />
+        <activity
+            android:name=".adcomplaintmanage"
+            android:exported="false" />
+        <activity
+            android:name=".userspage"
+            android:exported="false" />
+        <activity
+            android:name=".adnotice"
+            android:exported="false" />
+        <activity
             android:name=".homepage1"
+            android:exported="false" />
+        <activity
+            android:name=".safetynotice"
+            android:exported="false" />
+        <activity
+            android:name=".Healthcarenotice"
+            android:exported="false" />
+        <activity
+            android:name=".electricitysupply"
+            android:exported="false" />
+        <activity
+            android:name=".watersuplynotice"
+            android:exported="false" />
+        <activity
+            android:name=".navigationbarex"
+            android:exported="false"
+            android:label="@string/title_activity_navigationbarex"
+            android:theme="@style/Theme.VillageOS.NoActionBar" />
+        <activity
+            android:name=".threelines"
+            android:exported="false" />
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".listviewex"
+            android:exported="false" />
+        <activity
+            android:name=".gramsabhanotice"
             android:exported="false" />
         <activity
             android:name=".signinpage"
@@ -22,20 +69,52 @@
             android:name=".noticeboard"
             android:exported="false" />
         <activity
+            android:name=".documentmanagement"
+            android:exported="false" />
+        <activity
+            android:name=".complaintdetailspage2"
+            android:exported="false" />
+        <activity
+            android:name=".complaintmanagementpage"
+            android:exported="false" />
+        <activity
+            android:name=".complaintdetailspage"
+            android:exported="false" />
+        <activity
+            android:name=".Emergencyconpage"
+            android:exported="false" />
+        <activity
+            android:name=".complaintmanagementpage3"
+            android:exported="false" />
+        <activity
+            android:name=".complentpage"
+            android:exported="false" />
+        <activity
+            android:name=".profilepage"
+            android:exported="false" />
+        <activity
+            android:name=".Eventpage"
+            android:exported="false" />
+        <activity
             android:name=".healthcare"
             android:exported="false" />
         <activity
             android:name=".jobemp"
             android:exported="false" />
-
+        <activity
+            android:name=".schemes"
+            android:exported="false" />
         <activity
             android:name=".Mainpage"
             android:exported="false" />
         <activity
-            android:name=".feedback"
+            android:name=".admindb"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".adsplashscreen"
             android:exported="false" />
         <activity
             android:name=".loginpage"
