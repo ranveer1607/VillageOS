@@ -56,8 +56,17 @@ public class admindb extends AppCompatActivity {
         t4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i4=new Intent(admindb.this, complaintmanagementpage.class);
+                Intent i4=new Intent(admindb.this, Adevent.class);
                 startActivity(i4);
+            }
+        });
+
+        ImageView t5=findViewById(R.id.t5);
+        t5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i5=new Intent(admindb.this, adhealthcamp.class);
+                startActivity(i5);
             }
         });
 
@@ -70,14 +79,6 @@ public class admindb extends AppCompatActivity {
             }
         });
 
-        ImageView t5=findViewById(R.id.t5);
-        t5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i7=new Intent(admindb.this, Adscheme.class);
-                startActivity(i7);
-            }
-        });
 
 
 

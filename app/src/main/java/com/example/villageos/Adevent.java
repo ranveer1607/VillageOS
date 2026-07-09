@@ -30,7 +30,7 @@ public class Adevent extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_adnotice);
+        setContentView(R.layout.activity_adevent);
 
         EditText e1 = findViewById(R.id.e1);
         EditText e2 = findViewById(R.id.e2);

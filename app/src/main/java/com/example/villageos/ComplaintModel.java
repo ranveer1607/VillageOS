@@ -1,7 +1,7 @@
 package com.example.villageos;
 
 public class ComplaintModel {
-    String type,desc;
+    String type, desc, image;
 
     public String getType() {
         return type;
@@ -19,11 +19,20 @@ public class ComplaintModel {
         this.desc = desc;
     }
 
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
     public ComplaintModel() {
     }
 
-    public ComplaintModel(String type, String desc) {
+    public ComplaintModel(String type, String desc, String image) {
         this.type = type;
         this.desc = desc;
+        this.image = image;
     }
 }

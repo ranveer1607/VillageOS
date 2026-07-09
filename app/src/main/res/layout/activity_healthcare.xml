@@ -1,176 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF">
 
+
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:orientation="vertical">
 
+
+
+        <!-- Header -->
+
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
+
             android:background="#2E7D32"
-            android:gravity="center_vertical"
-            android:padding="15dp">
+            android:gravity="center">
+
 
             <TextView
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
                 android:text="Healthcare"
-                android:textSize="20sp"
+
+                android:textSize="22sp"
+
                 android:textStyle="bold"
+
                 android:textColor="#FFFFFF"/>
+
         </LinearLayout>
 
+
+
+        <!-- Ambulance Button -->
+
         <Button
+
             android:id="@+id/btnAmbulance"
+
             android:layout_width="match_parent"
+
             android:layout_height="60dp"
+
             android:layout_margin="15dp"
+
             android:text="🚑 CALL AMBULANCE"
+
+            android:textSize="18sp"
+
             android:textColor="#FFFFFF"
-            android:backgroundTint="#D32F2F"
-            android:textSize="18sp"/>
+
+            android:backgroundTint="#D32F2F"/>
+
+
+
+
+        <!-- Health Camp Updates -->
 
         <androidx.cardview.widget.CardView
+
             android:layout_width="match_parent"
+
             android:layout_height="wrap_content"
+
             android:layout_margin="10dp"
+
             app:cardCornerRadius="12dp"
+
             app:cardElevation="6dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="15dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Nearby Hospitals"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="#2E7D32"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="🏥 Primary Health Center\n📞 9876543210\n📍 Village Main Road"/>
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="6dp">
 
             <LinearLayout
+
                 android:layout_width="match_parent"
+
                 android:layout_height="wrap_content"
+
                 android:orientation="vertical"
+
                 android:padding="15dp">
 
+
+
                 <TextView
+
                     android:layout_width="wrap_content"
+
                     android:layout_height="wrap_content"
-                    android:text="Doctor Appointment"
-                    android:textSize="18sp"
+
+                    android:text="🏥 Health Camp Updates"
+
+                    android:textSize="20sp"
+
                     android:textStyle="bold"
+
                     android:textColor="#2E7D32"/>
 
-                <EditText
+
+
+                <androidx.recyclerview.widget.RecyclerView
+
+                    android:id="@+id/healthCampRecycler"
+
                     android:layout_width="match_parent"
+
                     android:layout_height="wrap_content"
-                    android:hint="Enter Name"/>
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Problem"/>
+                    android:layout_marginTop="10dp"/>
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:text="Book Appointment"
-                    android:layout_marginTop="10dp"
-                    android:backgroundTint="#2E7D32"
-                    android:textColor="#FFFFFF"/>
-            </LinearLayout>
 
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="6dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="15dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Health Camps"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="#2E7D32"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="• Free Checkup Camp - 5 July\n• Vaccination Camp - 10 July\n• Blood Donation Camp - 15 July"/>
 
             </LinearLayout>
 
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="6dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="15dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Medicine  Pharmacy"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="#2E7D32"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="💊 Medical Store Open 9AM - 10PM\n📞 9123456780"/>
-
-            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
+
 
     </LinearLayout>
+
 
 </ScrollView>

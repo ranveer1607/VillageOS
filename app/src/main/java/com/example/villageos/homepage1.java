@@ -1,22 +1,31 @@
 package com.example.villageos;
 
+import static androidx.constraintlayout.motion.widget.Debug.getLocation;
+
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.icu.util.MeasureUnit;
 import android.os.Bundle;
+import android.widget.TextView;
+import java.util.Calendar;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.Manifest;
+import android.content.pm.PackageManager;
+import androidx.core.app.ActivityCompat;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class homepage1 extends AppCompatActivity {
-
+    TextView quoteText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,14 +34,16 @@ public class homepage1 extends AppCompatActivity {
         Intent i=getIntent();
         String b=i.getStringExtra("NAME");
         w1.setText("Welcome \n"+b);
+        quoteText = findViewById(R.id.quoteText);
 
+        setDailyQuote();
 
         ImageButton ib1 = findViewById(R.id.ib1);
 
         ib1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i11 = new Intent(homepage1.this, schemes.class);
+                Intent i11 = new Intent(homepage1.this,schemes.class);
                 startActivity(i11);
             }
         });
@@ -43,7 +54,7 @@ public class homepage1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent i22 = new Intent(homepage1.this, Eventpage.class);
+                Intent i22 = new Intent(homepage1.this,Eventpage.class);
                 startActivity(i22);
 
             }
@@ -60,6 +71,7 @@ public class homepage1 extends AppCompatActivity {
 
             }
         });
+
 
         ImageButton ib4 = findViewById(R.id.ib4);
 
@@ -97,17 +109,6 @@ public class homepage1 extends AppCompatActivity {
             }
         });
 
-        ImageButton btn12 = findViewById(R.id.btn12);
-
-        btn12.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent i77 = new Intent(homepage1.this, profilepage.class);
-                startActivity(i77);
-
-            }
-        });
 
         ImageButton menuBtn = findViewById(R.id.menuBtn);
 
@@ -136,11 +137,71 @@ public class homepage1 extends AppCompatActivity {
             }
 
             if (item.getItemId() == R.id.p1) {
+
                 startActivity(new Intent(homepage1.this, profilepage.class));
                 return true;
             }
 
             return false;
         });
+    }
+
+    private void setDailyQuote(){
+
+        String[] quotes = {
+
+                "Our village, our responsibility, our pride.",
+
+                "Together we grow, together we build a better village.",
+
+                "Clean village, healthy village.",
+
+                "Unity of villagers creates the strength of a village.",
+
+                "Small efforts today create a developed village tomorrow.",
+
+                "A smart village starts with smart thinking.",
+
+                "The progress of a village depends on the unity of its people.",
+
+                "Every change begins with a small step.",
+
+                "Strong villages create a strong nation.",
+
+                "Save water, protect nature, build a better future.",
+
+                "A peaceful village is the foundation of a happy life.",
+
+                "Development comes when everyone participates.",
+
+                "Together we can make our village better.",
+
+                "Respect nature, respect culture, respect our village.",
+
+                "The beauty of a village lies in its unity.",
+
+                "Dream big, work together, develop together.",
+
+                "A clean village is a healthy village.",
+
+                "Our village, our future.",
+
+                "Technology and tradition together create a smart village.",
+
+                "Be the change you want to see in your village."
+
+        };
+
+
+        Calendar calendar = Calendar.getInstance();
+
+        int day = calendar.get(Calendar.DAY_OF_YEAR);
+
+
+        int index = day % quotes.length;
+
+
+        quoteText.setText("💡 Today's Thought\n\n\"" + quotes[index] + "\"");
+
     }
 }
