@@ -32,6 +32,8 @@ int temp;
         EditText e1=findViewById(R.id.e1);
         EditText e2=findViewById(R.id.e2);
         TextView no1=findViewById(R.id.no1);
+        TextView f=findViewById(R.id.f);
+
         Button b1=findViewById(R.id.b1);
 
         db= FirebaseDatabase.getInstance().getReference("new user");
@@ -85,10 +87,12 @@ int temp;
                 startActivity(i1);
             }
         });
-
-
-
-
-
+        f.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(loginpage.this,forgotpass.class);
+                startActivity(i);
+            }
+        });
     }
 }

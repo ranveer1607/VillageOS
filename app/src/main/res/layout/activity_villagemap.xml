@@ -1,40 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <RelativeLayout
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F8F3">
+
+    <!-- Header -->
+    <LinearLayout
+        android:id="@+id/h"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="65dp"
         android:background="#138A36"
-        android:padding="15dp">
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp">
 
         <ImageView
-            android:id="@+id/backBtn"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:src="@android:drawable/ic_media_previous"
-            android:backgroundTint="#FFFFFF"/>
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@android:drawable/ic_dialog_map" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
             android:text="Village Map"
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
+            android:textSize="22sp"
             android:textStyle="bold"/>
-    </RelativeLayout>
+    </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imgMap"
-        android:layout_width="400dp"
-        android:layout_height="500dp"
-        android:layout_marginTop="99dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/villagemap" />
+    <!-- Village Name Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardVillage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/h"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📍 Udatare Village"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#138A36"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tal. Wai | Dist. Satara"
+                android:textSize="14sp"
+                android:textColor="#666666"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Map -->
+    <org.osmdroid.views.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_below="@id/cardVillage"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <!-- Bottom Card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/map"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Village Information"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#138A36"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="• Live Village Map\n• Current Location\n• Nearby Schools\n• Gram Panchayat\n• Health Center"
+                android:textSize="15sp"
+                android:textColor="#555555"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Floating Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="18dp"
+        android:src="@android:drawable/ic_menu_mylocation"
+        app:backgroundTint="#138A36"
+        app:tint="#FFFFFF"/>
 
 </RelativeLayout>
