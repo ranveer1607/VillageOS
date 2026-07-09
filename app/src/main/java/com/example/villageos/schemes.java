@@ -20,6 +20,7 @@ public class schemes extends AppCompatActivity {
         LinearLayout schemep1=findViewById(R.id.schemep1);
         LinearLayout g2=findViewById(R.id.g2);
         LinearLayout g3=findViewById(R.id.g3);
+        LinearLayout g4=findViewById(R.id.g4);
 
         schemep1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +41,14 @@ public class schemes extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i3=new Intent(schemes.this, Penssion_Schemes.class);
                 startActivity(i3);
+            }
+        });
+
+        g4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i4=new Intent(schemes.this, Education_schemes.class);
+                startActivity(i4);
             }
         });
 

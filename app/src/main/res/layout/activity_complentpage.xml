@@ -10,17 +10,21 @@
         android:padding="16dp">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Raise a Complaint"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:background="#0A8F3D"
+            android:text="Raise a Complaint"
+            android:textAlignment="center"
             android:layout_gravity="center"
-            android:paddingBottom="20dp" />
+            android:textColor="@color/white"
+            android:padding="20dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="Complaint Type"
             android:textSize="16sp" />
 
@@ -56,16 +60,17 @@
         <LinearLayout
             android:id="@+id/uploadLayout"
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="300dp"
             android:layout_marginTop="8dp"
             android:orientation="vertical"
             android:gravity="center"
             android:background="#EEEEEE">
 
             <ImageView
-                android:layout_width="93dp"
-                android:layout_height="97dp"
-                android:src="@drawable/camera2" />
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/camera2"
+                android:id="@+id/c1"/>
 
             <TextView
                 android:layout_width="wrap_content"
