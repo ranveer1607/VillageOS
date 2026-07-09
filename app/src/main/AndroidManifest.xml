@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +18,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VillageOS"
         tools:targetApi="31">
+        <activity
+            android:name=".forgotpass"
+            android:exported="false" />
         <activity
             android:name=".homepage1"
             android:exported="false" />
@@ -27,7 +36,6 @@
         <activity
             android:name=".jobemp"
             android:exported="false" />
-
         <activity
             android:name=".Mainpage"
             android:exported="false" />
@@ -35,13 +43,256 @@
             android:name=".feedback"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".loginpage"
             android:exported="false" />
         <activity
+            android:name=".adcomplaintmanage"
+            android:exported="false" />
+        <activity
+            android:name=".Adevent"
+            android:exported="false" />
+        <activity
+            android:name=".adfeedback"
+            android:exported="false" />
+        <activity
+            android:name=".admin_schemepage"
+            android:exported="false" />
+        <activity
+            android:name=".admincomplaints"
+            android:exported="false" />
+        <activity
+            android:name=".admindb"
+            android:exported="false" />
+        <activity
+            android:name=".Adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".adminprofile"
+            android:exported="false" />
+        <activity
+            android:name=".adnotice"
+            android:exported="false" />
+        <activity
+            android:name=".Adscheme"
+            android:exported="false" />
+        <activity
+            android:name=".adsplashscreen"
+            android:exported="false" />
+        <activity
+            android:name=".application_review"
+            android:exported="false" />
+        <activity
+            android:name=".complentpage"
+            android:exported="false" />
+        <activity
+            android:name=".complaintdetailspage"
+            android:exported="false" />
+        <activity
+            android:name=".complaintdetailspage2"
+            android:exported="false" />
+        <activity
+            android:name=".complaintmanagementpage"
+            android:exported="false" />
+        <activity
+            android:name=".complaintmanagementpage3"
+            android:exported="false" />
+        <activity
+            android:name=".ComplaintModel"
+            android:exported="false" />
+        <activity
+            android:name=".dataex"
+            android:exported="false" />
+        <activity
+            android:name=".documentmanagement"
+            android:exported="false" />
+        <activity
+            android:name=".Editvillagerpage"
+            android:exported="false" />
+        <activity
+            android:name=".Education1"
+            android:exported="false" />
+        <activity
+            android:name=".Education2"
+            android:exported="false" />
+        <activity
+            android:name=".Education3"
+            android:exported="false" />
+        <activity
+            android:name=".Education4"
+            android:exported="false" />
+        <activity
+            android:name=".Education5"
+            android:exported="false" />
+        <activity
+            android:name=".Education6"
+            android:exported="false" />
+        <activity
+            android:name=".Education7"
+            android:exported="false" />
+        <activity
+            android:name=".Education8"
+            android:exported="false" />
+        <activity
+            android:name=".Education9"
+            android:exported="false" />
+        <activity
+            android:name=".Education10"
+            android:exported="false" />
+        <activity
+            android:name=".Education_schemes"
+            android:exported="false" />
+        <activity
+            android:name=".electricitysupply"
+            android:exported="false" />
+        <activity
+            android:name=".Emergencyconpage"
+            android:exported="false" />
+        <activity
+            android:name=".event_management"
+            android:exported="false" />
+        <activity
+            android:name=".Eventpage"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer1"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer2"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer3"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer4"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer5"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer6"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer7"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer8"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer9"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer10"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer_schemes"
+            android:exported="false" />
+        <activity
+            android:name=".form"
+            android:exported="false" />
+        <activity
+            android:name=".feed"
+            android:exported="false" />
+        <activity
+            android:name=".G_Scheme1"
+            android:exported="false" />
+        <activity
+            android:name=".gramsabhanotice"
+            android:exported="false" />
+        <activity
+            android:name=".gscheme1_2"
+            android:exported="false" />
+        <activity
+            android:name=".gscheme13"
+            android:exported="false" />
+        <activity
+            android:name=".gscheme14"
+            android:exported="false" />
+        <activity
+            android:name=".gscheme15"
+            android:exported="false" />
+        <activity
+            android:name=".gscheme16"
+            android:exported="false" />
+        <activity
+            android:name=".gscheme17"
+            android:exported="false" />
+        <activity
+            android:name=".Healthcarenotice"
+            android:exported="false" />
+        <activity
+            android:name=".Healthcarepage"
+            android:exported="false" />
+        <activity
+            android:name=".listviewex"
+            android:exported="false" />
+        <activity
+            android:name=".notification_center"
+            android:exported="false" />
+        <activity
+            android:name=".navigationbarex"
+            android:exported="false" />
+        <activity
+            android:name=".Pension1"
+            android:exported="false" />
+        <activity
+            android:name=".Pension2"
+            android:exported="false" />
+        <activity
+            android:name=".Pension3"
+            android:exported="false" />
+        <activity
+            android:name=".Pension4"
+            android:exported="false" />
+        <activity
+            android:name=".Pension5"
+            android:exported="false" />
+        <activity
+            android:name=".Pension6"
+            android:exported="false" />
+        <activity
+            android:name=".Pension7"
+            android:exported="false" />
+        <activity
+            android:name=".schemes"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".profilepage"
+            android:exported="false" />
+        <activity
+            android:name=".safetynotice"
+            android:exported="false" />
+        <activity
+            android:name=".scholarship_schemes"
+            android:exported="false" />
+        <activity
+            android:name=".Send_SMS"
+            android:exported="false" />
+        <activity
+            android:name=".sign"
+            android:exported="false" />
+        <activity
+            android:name=".signpage"
+            android:exported="false" />
+        <activity
+            android:name=".threelines"
+            android:exported="false" />
+        <activity
+            android:name=".usermanagment"
+            android:exported="false" />
+        <activity
+            android:name=".userspage"
+            android:exported="false" />
+        <activity
             android:name=".splashscreen"
+            android:exported="false" />
+        <activity
+            android:name=".watersuplynotice"
+            android:exported="false" />
+        <activity
+            android:name=".villagemap"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -22,92 +22,59 @@ public class homepage1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage1);
         TextView w1=findViewById(R.id.w1);
+        ImageButton ib1 = findViewById(R.id.ib1);
+        ImageButton ib2 = findViewById(R.id.ib2);
+        ImageButton ib3 = findViewById(R.id.ib3);
+        ImageButton ib4 = findViewById(R.id.ib4);
+        ImageButton ib5= findViewById(R.id.ib5);
+        ImageButton ib6 = findViewById(R.id.ib6);
         Intent i=getIntent();
         String b=i.getStringExtra("NAME");
         w1.setText("Welcome \n"+b);
-
-
-        ImageButton ib1 = findViewById(R.id.ib1);
-
-        ib1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i11 = new Intent(homepage1.this, schemes.class);
-                startActivity(i11);
-            }
-        });
-
-        ImageButton ib2 = findViewById(R.id.ib2);
-
+         ib1.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 Intent i=new Intent(homepage1.this,schemes.class);
+                 startActivity(i);
+             }
+         });
         ib2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent i22 = new Intent(homepage1.this, Eventpage.class);
-                startActivity(i22);
-
+                Intent i2=new Intent(homepage1.this,event_management.class);
+                startActivity(i2);
             }
         });
-
-        ImageButton ib3 = findViewById(R.id.ib3);
-
         ib3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent i33 = new Intent(homepage1.this, Emergencyconpage.class);
-                startActivity(i33);
-
+                Intent i3=new Intent(homepage1.this,Emergencyconpage.class);
+                startActivity(i3);
             }
         });
-
-        ImageButton ib4 = findViewById(R.id.ib4);
-
         ib4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent i44 = new Intent(homepage1.this, healthcare.class);
-                startActivity(i44);
-
+                Intent i4=new Intent(homepage1.this,healthcare.class);
+                startActivity(i4);
             }
         });
-
-        ImageButton ib5 = findViewById(R.id.ib5);
-
         ib5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent i55 = new Intent(homepage1.this, noticeboard.class);
-                startActivity(i55);
-
+                Intent i5=new Intent(homepage1.this,noticeboard.class);
+                startActivity(i5);
             }
         });
-
-        ImageButton ib6 = findViewById(R.id.ib6);
-
         ib6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent i66 = new Intent(homepage1.this, complaintmanagementpage.class);
-                startActivity(i66);
-
+                Intent i6=new Intent(homepage1.this,complentpage.class);
+                startActivity(i6);
             }
         });
 
-        ImageButton btn12 = findViewById(R.id.btn12);
 
-        btn12.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent i77 = new Intent(homepage1.this, profilepage.class);
-                startActivity(i77);
-
-            }
-        });
 
         ImageButton menuBtn = findViewById(R.id.menuBtn);
 
